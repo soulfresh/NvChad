@@ -5,7 +5,7 @@ local default_plugins = {
   "nvim-lua/plenary.nvim",
 
   {
-    "NvChad/base46",
+    "soulfresh/base46",
 		url = "https://github.com/soulfresh/base46",
 		branch = "feat/highlight-color-mix",
     build = function()
