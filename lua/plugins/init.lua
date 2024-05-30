@@ -6,7 +6,8 @@ local default_plugins = {
 
   {
     "NvChad/base46",
-    branch = "v2.0",
+		url = "https://github.com/soulfresh/base46",
+		branch = "feat/highlight-color-mix",
     build = function()
       require("base46").load_all_highlights()
     end,
